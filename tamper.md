@@ -3,8 +3,7 @@
 
 ### 作用：
 
-```
-apostrophemask.py                作用：用utf8代替引号
+```apostrophemask.py				作用：用utf8代替引号
 apostrophenullencode.py			作用：绕过过滤双引号，替换字符和双引号。
 appendnullbyte.py				作用：在有效负荷结束位置加载零字节字符编码
 base64encode.py					作用：用base64编码替换 Example: ("1' AND SLEEP(5)#") 'MScgQU5EIFNMRUVQKDUpIw==' Requirement: all
@@ -58,6 +57,4 @@ space2randomblank.py			作用：代替空格字符（“ ”）从一个随机�
 unmagicquotes.py				作用：宽字符绕过 GPC addslashes Example: 1′ AND 1=1 | 1%bf%27 AND 1=1–%20
 uppercase.py
 versionedkeywords.py
-versionedmorekeywords.py
-
-```
+versionedmorekeywords.py```
